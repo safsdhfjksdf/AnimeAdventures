@@ -1,15 +1,3 @@
--- v1.4.7 --
--- + Added Ant Kingdom
-
--- v1.4.6 --
--- + Fixed Auto Ability [if it breaks dm Arpon AG#6612]
-
--- v1.4.5 --
--- + Added Hollow World
-
-
-
----// Loading Section \\---
 task.wait(2)
 repeat  task.wait() until game:IsLoaded()
 if game.PlaceId == 8304191830 then
@@ -170,8 +158,8 @@ function sex()
     --------------------------------------------------
     -- Uilib Shits
 
-    local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/Forever4D/Lib/main/DiscordLib2.lua")()
-    local win = DiscordLib:Window("[🐛UPD 4] Anime Adventures 1.4.7".." - "..tostring(identifyexecutor()))
+    local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/safsdhfjksdf/Discord-Css/main/DiscordLib2.lua")()
+    local win = DiscordLib:Window("Drop Cheetos (v1.0.0)".." - "..tostring(identifyexecutor()))
     local serv = win:Server("Anime Adventures", "http://www.roblox.com/asset/?id=6031075938")
             
     if game.PlaceId == 8304191830 then
@@ -699,8 +687,7 @@ function sex()
     end
 
     local credits = serv:Channel("Credits")
-    credits:Label("Forever4D#0001")
-    credits:Label("Arpon AG#6612")
+    credits:Label("Dropszw#9746")
     credits:Label(" ")
 
 end
